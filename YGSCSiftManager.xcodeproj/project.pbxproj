@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		076A03C9471020899A664265 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6027DBD908F35DB22E21F1F /* libPods.a */; };
+		0BFEE6131C3D6021005E658A /* groupicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BFEE60E1C3D6021005E658A /* groupicon.png */; };
+		0BFEE6141C3D6021005E658A /* myshifticon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BFEE60F1C3D6021005E658A /* myshifticon.png */; };
+		0BFEE6151C3D6021005E658A /* newsicon3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BFEE6101C3D6021005E658A /* newsicon3.png */; };
+		0BFEE6161C3D6021005E658A /* User1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0BFEE6111C3D6021005E658A /* User1.gif */; };
+		0BFEE6171C3D6021005E658A /* User2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0BFEE6121C3D6021005E658A /* User2.gif */; };
 		5C198CB01BCF3E6000C2E701 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C198CAF1BCF3E6000C2E701 /* main.m */; };
 		5C198CB31BCF3E6000C2E701 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C198CB21BCF3E6000C2E701 /* AppDelegate.m */; };
 		5C198CB61BCF3E6000C2E701 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C198CB51BCF3E6000C2E701 /* ViewController.m */; };
@@ -18,8 +23,6 @@
 		5C198CE61BCF407400C2E701 /* YGSCDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C198CE51BCF407400C2E701 /* YGSCDayCell.m */; };
 		5C41BD731C277D4800EA1735 /* MyShiftTableview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C41BD721C277D4800EA1735 /* MyShiftTableview.xib */; };
 		5C41BD761C27805300EA1735 /* MyTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C41BD751C27805300EA1735 /* MyTableCell.m */; };
-		5C41BD7D1C279E4900EA1735 /* User1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5C41BD7B1C279E4900EA1735 /* User1.gif */; };
-		5C41BD7E1C279E4900EA1735 /* User2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5C41BD7C1C279E4900EA1735 /* User2.gif */; };
 		5C43245F1C2239980067F0AF /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C43245E1C2239980067F0AF /* images.xcassets */; };
 		5C487B081BE0715F00333971 /* GroopShiftTableview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C487B071BE0715F00333971 /* GroopShiftTableview.xib */; };
 		5C487B0B1BE0743C00333971 /* GroopTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C487B0A1BE0743C00333971 /* GroopTableCell.m */; };
@@ -32,9 +35,6 @@
 		5C55F2841C169BB200F4FDEF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C55F2831C169BB200F4FDEF /* QuartzCore.framework */; };
 		5C5ECBD71BD61E37009E655B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C5ECBD51BD61E37009E655B /* Main.storyboard */; };
 		5C7601DD1C28D74B008619BC /* TabbarCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7601DC1C28D74B008619BC /* TabbarCustom.m */; };
-		5C7601E91C2913E1008619BC /* myshifticon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7601E81C2913E1008619BC /* myshifticon.png */; };
-		5C7601EF1C29154D008619BC /* groupicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7601EE1C29154D008619BC /* groupicon.png */; };
-		5C7601F71C291803008619BC /* newsicon3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7601F61C291803008619BC /* newsicon3.png */; };
 		5CBA82E81BD86DCB0042595E /* MySiftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CBA82E71BD86DCB0042595E /* MySiftViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +56,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BFEE60E1C3D6021005E658A /* groupicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = groupicon.png; path = images/groupicon.png; sourceTree = "<group>"; };
+		0BFEE60F1C3D6021005E658A /* myshifticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = myshifticon.png; path = images/myshifticon.png; sourceTree = "<group>"; };
+		0BFEE6101C3D6021005E658A /* newsicon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = newsicon3.png; path = images/newsicon3.png; sourceTree = "<group>"; };
+		0BFEE6111C3D6021005E658A /* User1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = User1.gif; path = images/User1.gif; sourceTree = "<group>"; };
+		0BFEE6121C3D6021005E658A /* User2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = User2.gif; path = images/User2.gif; sourceTree = "<group>"; };
 		19134D8289A8157EF9F6354D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		5C198CAB1BCF3E6000C2E701 /* YGSCSiftManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YGSCSiftManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C198CAF1BCF3E6000C2E701 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -78,8 +83,6 @@
 		5C41BD721C277D4800EA1735 /* MyShiftTableview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyShiftTableview.xib; sourceTree = "<group>"; };
 		5C41BD741C27805300EA1735 /* MyTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableCell.h; sourceTree = "<group>"; };
 		5C41BD751C27805300EA1735 /* MyTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableCell.m; sourceTree = "<group>"; };
-		5C41BD7B1C279E4900EA1735 /* User1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = User1.gif; path = ../../Dropbox/User1.gif; sourceTree = "<group>"; };
-		5C41BD7C1C279E4900EA1735 /* User2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = User2.gif; path = ../../Dropbox/User2.gif; sourceTree = "<group>"; };
 		5C43245E1C2239980067F0AF /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
 		5C487B071BE0715F00333971 /* GroopShiftTableview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroopShiftTableview.xib; sourceTree = "<group>"; };
 		5C487B091BE0743C00333971 /* GroopTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroopTableCell.h; sourceTree = "<group>"; };
@@ -100,9 +103,6 @@
 		5C5ECBD61BD61E37009E655B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = YGSCSiftManager/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C7601DB1C28D74B008619BC /* TabbarCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabbarCustom.h; path = ../TabbarCustom.h; sourceTree = "<group>"; };
 		5C7601DC1C28D74B008619BC /* TabbarCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabbarCustom.m; path = ../TabbarCustom.m; sourceTree = "<group>"; };
-		5C7601E81C2913E1008619BC /* myshifticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = myshifticon.png; path = ../../Dropbox/myshifticon.png; sourceTree = "<group>"; };
-		5C7601EE1C29154D008619BC /* groupicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = groupicon.png; path = ../../Dropbox/groupicon.png; sourceTree = "<group>"; };
-		5C7601F61C291803008619BC /* newsicon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = newsicon3.png; path = ../../Dropbox/newsicon3.png; sourceTree = "<group>"; };
 		5CBA82E61BD86DCB0042595E /* MySiftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySiftViewController.h; sourceTree = "<group>"; };
 		5CBA82E71BD86DCB0042595E /* MySiftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySiftViewController.m; sourceTree = "<group>"; };
 		E6027DBD908F35DB22E21F1F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -225,11 +225,11 @@
 		5C7601F81C291862008619BC /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				5C41BD7B1C279E4900EA1735 /* User1.gif */,
-				5C41BD7C1C279E4900EA1735 /* User2.gif */,
-				5C7601E81C2913E1008619BC /* myshifticon.png */,
-				5C7601F61C291803008619BC /* newsicon3.png */,
-				5C7601EE1C29154D008619BC /* groupicon.png */,
+				0BFEE60E1C3D6021005E658A /* groupicon.png */,
+				0BFEE60F1C3D6021005E658A /* myshifticon.png */,
+				0BFEE6101C3D6021005E658A /* newsicon3.png */,
+				0BFEE6111C3D6021005E658A /* User1.gif */,
+				0BFEE6121C3D6021005E658A /* User2.gif */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -398,16 +398,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C41BD731C277D4800EA1735 /* MyShiftTableview.xib in Resources */,
-				5C7601E91C2913E1008619BC /* myshifticon.png in Resources */,
+				0BFEE6161C3D6021005E658A /* User1.gif in Resources */,
 				5C5ECBD71BD61E37009E655B /* Main.storyboard in Resources */,
 				5C198CBE1BCF3E6000C2E701 /* LaunchScreen.storyboard in Resources */,
-				5C7601EF1C29154D008619BC /* groupicon.png in Resources */,
+				0BFEE6171C3D6021005E658A /* User2.gif in Resources */,
 				5C487B081BE0715F00333971 /* GroopShiftTableview.xib in Resources */,
+				0BFEE6131C3D6021005E658A /* groupicon.png in Resources */,
 				5C55F2801C169B2100F4FDEF /* SVProgressHUD.bundle in Resources */,
-				5C41BD7D1C279E4900EA1735 /* User1.gif in Resources */,
-				5C7601F71C291803008619BC /* newsicon3.png in Resources */,
-				5C41BD7E1C279E4900EA1735 /* User2.gif in Resources */,
+				0BFEE6151C3D6021005E658A /* newsicon3.png in Resources */,
 				5C43245F1C2239980067F0AF /* images.xcassets in Resources */,
+				0BFEE6141C3D6021005E658A /* myshifticon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

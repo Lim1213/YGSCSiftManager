@@ -98,7 +98,9 @@
     NSMutableArray *idarray =[self.mydatas valueForKeyPath:@"id"];
     NSLog(@"%@",idarray);
     NSInteger matchIndex = [idarray indexOfObject:myId];
+    if(self.mydatas != nil){
    shiftdic = [self.mydatas objectAtIndex:matchIndex];
+    }
 
 }
 
@@ -113,15 +115,19 @@
     NSInteger matchIndex = [idarray indexOfObject:myId];
     shiftdic = [self.mydatas objectAtIndex:matchIndex];
     NSLog(@"%@",shiftdic);
+        if(self.mydatas != nil){
     [myshiftArray addObject:shiftdic];
+        }
     }
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView
          cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // カスタムセルを取得
-    MyTableCell *cell = [myshiftTableview dequeueReusableCellWithIdentifier:@"MyShiftCell" forIndexPath:indexPath];    
+    MyTableCell *cell = [myshiftTableview dequeueReusableCellWithIdentifier:@"MyShiftCell" forIndexPath:indexPath];
+    if(self.mydatas != nil){
     self.myShiftDic = [myshiftArray objectAtIndex:indexPath.row];
+    }
     cell.dayLabel.text = [NSString stringWithFormat:@"%ld",(long)indexPath.row+1];
     if([self.myShiftDic objectForKey:@"StartTime"] != nil ){
         cell.myTimeLabel1.text= [self.myShiftDic objectForKey:@"StartTime"];
