@@ -5,7 +5,7 @@
 //  Created by MASAHIDE HAKUYA on 2015/12/08.
 //  Copyright © 2015年 MASAHIDE HAKUYA. All rights reserved.
 //
-
+#import <Parse/Parse.h>
 #import "EmproyeeEntry.h"
 #import "SVProgressHUD.h"
 
@@ -14,6 +14,7 @@
     IBOutlet UITextField *idtf;
     NSInteger *Month;
     NSInteger *last;
+    NSInteger *Year;
 }
 -(void)viewDidLoad{
     NSDate *today = [NSDate date];
@@ -21,7 +22,7 @@
     NSDateComponents *components = [gregorian components:
                   (NSCalendarUnitDay |  NSCalendarUnitMonth | NSCalendarUnitYear | NSCalendarUnitWeekday) fromDate:today];
     Month = components.month;
-
+    Year = components.year;
     NSCalendar *cal = [NSCalendar currentCalendar];
     NSDate *Selectdate = [cal dateFromComponents:components];
     NSRange range = [cal rangeOfUnit:NSCalendarUnitDay inUnit:NSCalendarUnitMonth forDate:Selectdate];
@@ -78,7 +79,26 @@
         }else{
             //データを入れる
             [datas addObject:list];
+            if(i == 1){
+            PFObject * employee = [PFObject objectWithClassName:@"Employee"];
+            [employee setObject:idtf.text forKey:@"id"];
+            [employee setObject:nametf.text forKey:@"Name"];
+            [employee saveInBackground];
+            }
             
+            PFObject *shiftTime = [PFObject objectWithClassName:@"ShiftTime"];
+            NSString *dayString = [NSString stringWithFormat:@"%d-%d-%d",Year,Month,i];
+            NSDateFormatter *formatter = [[NSDateFormatter alloc]init];
+            [formatter setDateFormat:@"YYYY-MM-dd"];
+            NSTimeZone * zone = [NSTimeZone timeZoneForSecondsFromGMT:0];
+            [formatter setTimeZone:zone];
+            NSDate *date_converted =[formatter dateFromString:dayString];
+            
+            [shiftTime setObject:date_converted forKey:@"WorkDay"];
+            [shiftTime setObject:idtf.text forKey:@"EmployeeID"];
+
+            [shiftTime saveInBackground];
+
             //ファイルを書き込み
             BOOL a =[datas writeToFile:filepath atomically:YES];
     //[datas writeToFile:filepath atomically:YES];

@@ -37,7 +37,7 @@
 // PickerViewで要素が選択されたときに呼び出されるメソッド
 - (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component {
     // デリゲート先の処理を呼び出し、選択された文字列を親Viewに表示させる
-    [self.delegate applySelectedString:[NSString stringWithFormat:@"%ld", row]];
+    [self.delegate applySelectedString:[NSString stringWithFormat:@"%ld", (long)row]];
 }
 
 // PickerViewの列数を指定するメソッド
@@ -52,7 +52,7 @@
 
 // PickerViewの各行に表示する文字列を指定するメソッド
 -(NSString*)pickerView:(UIPickerView*)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component{
-    return [NSString stringWithFormat:@"%ld", row];
+    return [NSString stringWithFormat:@"%ld", (long)row];
 }
 - (IBAction)DateChanged:(id)sender{
     

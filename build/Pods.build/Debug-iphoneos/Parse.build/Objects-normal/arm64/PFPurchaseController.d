@@ -1,0 +1,29 @@
+dependencies: \
+  /Users/Prim/YGSCSiftManager/Pods/Parse/Parse/Internal/Purchase/Controller/PFPurchaseController.m \
+  /Users/Prim/YGSCSiftManager/Pods/Target\ Support\ Files/Parse/Parse-prefix.pch \
+  /Users/Prim/YGSCSiftManager/Pods/Parse/Parse/Internal/Purchase/Controller/PFPurchaseController.h \
+  /Users/Prim/YGSCSiftManager/Pods/Parse/Parse/PFConstants.h \
+  /Users/Prim/YGSCSiftManager/Pods/Parse/Parse/Internal/PFDataProvider.h \
+  /Users/Prim/YGSCSiftManager/Pods/Bolts/Bolts/Common/BFTaskCompletionSource.h \
+  /Users/Prim/YGSCSiftManager/Pods/Parse/Parse/Internal/BFTask+Private.h \
+  /Users/Prim/YGSCSiftManager/Pods/Bolts/Bolts/Common/BFExecutor.h \
+  /Users/Prim/YGSCSiftManager/Pods/Bolts/Bolts/Common/BFTask.h \
+  /Users/Prim/YGSCSiftManager/Pods/Bolts/Bolts/Common/BFCancellationToken.h \
+  /Users/Prim/YGSCSiftManager/Pods/Bolts/Bolts/Common/BFCancellationTokenRegistration.h \
+  /Users/Prim/YGSCSiftManager/Pods/Parse/Parse/Internal/PFInternalUtils.h \
+  /Users/Prim/YGSCSiftManager/Pods/Parse/Parse/Internal/PFEncoder.h \
+  /Users/Prim/YGSCSiftManager/Pods/Parse/Parse/Internal/PFMacros.h \
+  /Users/Prim/YGSCSiftManager/Pods/Parse/Parse/Internal/PFAssert.h \
+  /Users/Prim/YGSCSiftManager/Pods/Parse/Parse/Internal/PFCommandResult.h \
+  /Users/Prim/YGSCSiftManager/Pods/Parse/Parse/Internal/Commands/CommandRunner/PFCommandRunning.h \
+  /Users/Prim/YGSCSiftManager/Pods/Parse/Parse/Internal/PFDecoder.h \
+  /Users/Prim/YGSCSiftManager/Pods/Parse/Parse/Internal/PFFileManager.h \
+  /Users/Prim/YGSCSiftManager/Pods/Parse/Parse/Internal/File/PFFile_Private.h \
+  /Users/Prim/YGSCSiftManager/Pods/Parse/Parse/PFFile.h \
+  /Users/Prim/YGSCSiftManager/Pods/Parse/Parse/Internal/File/State/PFFileState.h \
+  /Users/Prim/YGSCSiftManager/Pods/Parse/Parse/Internal/PFBaseState.h \
+  /Users/Prim/YGSCSiftManager/Pods/Parse/Parse/Internal/HTTPRequest/PFHTTPRequest.h \
+  /Users/Prim/YGSCSiftManager/Pods/Parse/Parse/Internal/Purchase/PaymentTransactionObserver/PFPaymentTransactionObserver.h \
+  /Users/Prim/YGSCSiftManager/Pods/Parse/Parse/Internal/Product/ProductsRequestHandler/PFProductsRequestHandler.h \
+  /Users/Prim/YGSCSiftManager/Pods/Parse/Parse/Internal/Commands/PFRESTCommand.h \
+  /Users/Prim/YGSCSiftManager/Pods/Parse/Parse/Internal/PFNetworkCommand.h

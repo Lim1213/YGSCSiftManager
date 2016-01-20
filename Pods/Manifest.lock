@@ -1,16 +1,25 @@
 PODS:
-  - HMSegmentedControl (1.5.2)
+  - Bolts (1.6.0):
+    - Bolts/AppLinks (= 1.6.0)
+    - Bolts/Tasks (= 1.6.0)
+  - Bolts/AppLinks (1.6.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.6.0)
   - JSQMessagesViewController (7.2.0):
     - JSQSystemSoundPlayer (~> 2.0.1)
   - JSQSystemSoundPlayer (2.0.1)
+  - Parse (1.12.0):
+    - Bolts/Tasks (~> 1.5)
 
 DEPENDENCIES:
-  - HMSegmentedControl
+  - Bolts
   - JSQMessagesViewController
+  - Parse
 
 SPEC CHECKSUMS:
-  HMSegmentedControl: 83b9686022d2176fb6457d2bdb61e5d6393fed7d
+  Bolts: f52a250053bb517ca874523c3913776359ab3def
   JSQMessagesViewController: 73cab48aa92fc2d512f3b6724f3425cc47a19eb5
   JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  Parse: de2c52a9a1421b91ae7594ab8ce191afd184f19b
 
 COCOAPODS: 0.39.0

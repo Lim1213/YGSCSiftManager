@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		076A03C9471020899A664265 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6027DBD908F35DB22E21F1F /* libPods.a */; };
+		0B2B4F2F1C4DC30D009B12F0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2B4F2E1C4DC30D009B12F0 /* libPods.a */; };
+		0BECA6D81C47280D005E5EA4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BECA6D71C47280D005E5EA4 /* SystemConfiguration.framework */; };
+		0BECA6DA1C472817005E5EA4 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BECA6D91C472817005E5EA4 /* StoreKit.framework */; };
+		0BECA6DC1C472827005E5EA4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BECA6DB1C472827005E5EA4 /* Security.framework */; };
+		0BECA6DE1C47283A005E5EA4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BECA6DD1C47283A005E5EA4 /* CoreLocation.framework */; };
+		0BECA6E01C47284B005E5EA4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BECA6DF1C47284B005E5EA4 /* CoreGraphics.framework */; };
+		0BECA6E21C472853005E5EA4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BECA6E11C472853005E5EA4 /* AudioToolbox.framework */; };
+		0BECA6E41C47286A005E5EA4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BECA6E31C47286A005E5EA4 /* CFNetwork.framework */; };
 		0BFEE6131C3D6021005E658A /* groupicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BFEE60E1C3D6021005E658A /* groupicon.png */; };
 		0BFEE6141C3D6021005E658A /* myshifticon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BFEE60F1C3D6021005E658A /* myshifticon.png */; };
 		0BFEE6151C3D6021005E658A /* newsicon3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BFEE6101C3D6021005E658A /* newsicon3.png */; };
@@ -56,6 +63,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B2B4F2E1C4DC30D009B12F0 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "../Library/Developer/Xcode/DerivedData/YGSCSiftManager-fhokhzlljypavneaytksjxibxoat/Build/Products/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		0BECA6D71C47280D005E5EA4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0BECA6D91C472817005E5EA4 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		0BECA6DB1C472827005E5EA4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0BECA6DD1C47283A005E5EA4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0BECA6DF1C47284B005E5EA4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0BECA6E11C472853005E5EA4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0BECA6E31C47286A005E5EA4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		0BFEE60E1C3D6021005E658A /* groupicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = groupicon.png; path = images/groupicon.png; sourceTree = "<group>"; };
 		0BFEE60F1C3D6021005E658A /* myshifticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = myshifticon.png; path = images/myshifticon.png; sourceTree = "<group>"; };
 		0BFEE6101C3D6021005E658A /* newsicon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = newsicon3.png; path = images/newsicon3.png; sourceTree = "<group>"; };
@@ -105,7 +120,6 @@
 		5C7601DC1C28D74B008619BC /* TabbarCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabbarCustom.m; path = ../TabbarCustom.m; sourceTree = "<group>"; };
 		5CBA82E61BD86DCB0042595E /* MySiftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySiftViewController.h; sourceTree = "<group>"; };
 		5CBA82E71BD86DCB0042595E /* MySiftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySiftViewController.m; sourceTree = "<group>"; };
-		E6027DBD908F35DB22E21F1F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E67731CFCBCC330CDF88901A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,8 +128,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B2B4F2F1C4DC30D009B12F0 /* libPods.a in Frameworks */,
+				0BECA6D81C47280D005E5EA4 /* SystemConfiguration.framework in Frameworks */,
+				0BECA6DA1C472817005E5EA4 /* StoreKit.framework in Frameworks */,
+				0BECA6DC1C472827005E5EA4 /* Security.framework in Frameworks */,
 				5C55F2841C169BB200F4FDEF /* QuartzCore.framework in Frameworks */,
-				076A03C9471020899A664265 /* libPods.a in Frameworks */,
+				0BECA6DE1C47283A005E5EA4 /* CoreLocation.framework in Frameworks */,
+				0BECA6E01C47284B005E5EA4 /* CoreGraphics.framework in Frameworks */,
+				0BECA6E21C472853005E5EA4 /* AudioToolbox.framework in Frameworks */,
+				0BECA6E41C47286A005E5EA4 /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,8 +296,15 @@
 		9A9EAAE5A558F660AC96D766 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0B2B4F2E1C4DC30D009B12F0 /* libPods.a */,
+				0BECA6E31C47286A005E5EA4 /* CFNetwork.framework */,
+				0BECA6E11C472853005E5EA4 /* AudioToolbox.framework */,
+				0BECA6DF1C47284B005E5EA4 /* CoreGraphics.framework */,
+				0BECA6DD1C47283A005E5EA4 /* CoreLocation.framework */,
+				0BECA6DB1C472827005E5EA4 /* Security.framework */,
+				0BECA6D91C472817005E5EA4 /* StoreKit.framework */,
+				0BECA6D71C47280D005E5EA4 /* SystemConfiguration.framework */,
 				5C55F2831C169BB200F4FDEF /* QuartzCore.framework */,
-				E6027DBD908F35DB22E21F1F /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -638,9 +666,38 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YGSCSiftManager",
+				);
 				INFOPLIST_FILE = YGSCSiftManager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"HMSegmentedControl\"",
+					"-l\"JSQMessagesViewController\"",
+					"-l\"JSQSystemSoundPlayer\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"MapKit\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = yoshida.YGSCSiftManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -655,9 +712,37 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YGSCSiftManager",
+				);
 				INFOPLIST_FILE = YGSCSiftManager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"HMSegmentedControl\"",
+					"-l\"JSQMessagesViewController\"",
+					"-l\"JSQSystemSoundPlayer\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"MapKit\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = yoshida.YGSCSiftManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";

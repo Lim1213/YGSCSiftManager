@@ -78,11 +78,16 @@
     Month = components.month;  // 現在の月を取得
     //nowweek = components.weekdayOrdinal;
     cal = [NSCalendar currentCalendar];
+    comps.month =Month;
+    comps.year = Year;
     comps.day = 1;
+    NSLog(@"day%ld",(long)comps.day);
     NSDate* onDaydate = [cal dateFromComponents:comps];
+    NSLog(@"onday%@",onDaydate);
     comps = [cal components:NSWeekdayCalendarUnit fromDate:onDaydate];
-    weekday = comps.weekday;
-    MonthLabel.text=[NSString stringWithFormat:@"%ld年%ld月", Year, Month];
+    NSLog(@"day%ld",(long)comps.day);
+    weekday = comps.weekday-1;
+    MonthLabel.text=[NSString stringWithFormat:@"%ld年%ld月", (long)Year, Month];
     UINib *nib = [UINib nibWithNibName:@"GroopShiftTableview" bundle:nil];
     //UINib *nib = [UINib nibWithNibName:@"CustomCell" bundle:nil];
     [self.tableView1 registerNib:nib forCellReuseIdentifier:@"SiftCell"];
@@ -106,7 +111,7 @@
     }else{
         self.datas = [NSMutableArray arrayWithContentsOfFile:filepath];
     }
-    self.navititle.title = [NSString stringWithFormat:@"%ld年%ld月", Year, Month];
+    self.navititle.title = [NSString stringWithFormat:@"%ld年%ld月", (long)Year, Month];
     selectedindexPath = [NSIndexPath indexPathForRow:0 inSection:0];
     UILongPressGestureRecognizer *longPressRecognizer = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(rowButtonAction:)];
     longPressRecognizer.allowableMovement = 15;
@@ -142,14 +147,14 @@
         Year = Year+1;
         Month =1;
     }
-    NSLog(@"%ld",Month);
+    NSLog(@"%ld",(long)Month);
     fileName = [NSString stringWithFormat:@"Emp%ld%d.plist",(long)Month,1];
     filepath = [documentsDirectory stringByAppendingPathComponent:fileName];
     self.datas = [NSMutableArray arrayWithContentsOfFile:filepath];
     [self.tableView1 reloadData];
     selectedindexPath = [NSIndexPath indexPathForRow:0 inSection:0];
     [self.collectionview1 reloadData];
-    self.navititle.title=[NSString stringWithFormat:@"%ld年%ld月", Year, Month];
+    self.navititle.title=[NSString stringWithFormat:@"%ld年%ld月", (long)Year, Month];
 }
 
 -(IBAction)pushPrev
@@ -166,8 +171,8 @@
     [self.tableView1 reloadData];
     selectedindexPath = [NSIndexPath indexPathForRow:0 inSection:0];
     [self.collectionview1 reloadData];
-    NSLog(@"%ld",Month);
-    self.navititle.title=[NSString stringWithFormat:@"%ld年%ld月", Year, Month];
+    NSLog(@"%ld",(long)Month);
+    self.navititle.title=[NSString stringWithFormat:@"%ld年%ld月", (long)Year, Month];
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section

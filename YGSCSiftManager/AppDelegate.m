@@ -5,7 +5,7 @@
 //  Created by MASAHIDE HAKUYA on 2015/10/15.
 //  Copyright © 2015年 MASAHIDE HAKUYA. All rights reserved.
 //
-
+#import <Parse/Parse.h>
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
@@ -20,6 +20,23 @@
     // Override point for customization after application launch.
     StartTime=@"";
     EndTime=@"";
+
+    [Parse enableLocalDatastore];
+    
+    // Initialize Parse.
+    [Parse setApplicationId:@"aZbC2BtiB7ndngn0HCLydWyDpz21LVDf5l3vl7Bp"
+                  clientKey:@"Te3GyuW5OJ9669VqBdjq5Ox2dkNB3bGFntvkVPyv"];
+    
+    // [Optional] Track statistics around application opens.
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
+    [PFUser enableAutomaticUser];
+    PFUser *newuser = [PFUser currentUser];
+    [newuser saveInBackground];
+    PFInstallation *curentInstallation = [PFInstallation currentInstallation];
+    [curentInstallation saveInBackground];
+    NSLog(@"%@",newuser);
+
     return YES;
 }
 
